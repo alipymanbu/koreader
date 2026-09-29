@@ -1,104 +1,27 @@
-[![KOReader](https://raw.githubusercontent.com/koreader/koreader.github.io/master/koreader-logo.png)](https://koreader.rocks)
+# koreader
 
-#### KOReader is a document viewer primarily aimed at e-ink readers.
+本仓库是「koreader」的安卓版本获取入口，附使用资料索引。
 
-[![AGPL Licence][badge-license]](COPYING)
-[![Latest release][badge-release]][link-gh-releases]
-[![Gitter][badge-gitter]][link-gitter]
-[![Mobileread][badge-mobileread]][link-forum]
-[![Build Status][badge-circleci]][link-circleci]
-[![Coverage Status][badge-coverage]][link-coverage]
-[![Weblate Status][badge-weblate]][link-weblate]
+## 安装文件资源（夸克网盘）
 
-[Download](https://github.com/koreader/koreader/releases) •
-[User guide](http://koreader.rocks/user_guide/) •
-[Wiki](https://github.com/koreader/koreader/wiki) •
-[Developer docs](http://koreader.rocks/doc/)
+> **koreader 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/1dcde1250372](https://pan.quark.cn/s/1dcde1250372)
 
-## Main features
+## 官方项目
 
-* **portable**: runs on embedded devices (Cervantes, Kindle, Kobo, PocketBook, reMarkable), Android and Linux computers. Developers can run a KOReader emulator in Linux and MacOS.
+- 上游项目：[koreader/koreader](https://github.com/koreader/koreader)
 
-* **multi-format documents**: supports fixed page formats (PDF, DjVu, CBT, CBZ) and reflowable e-book formats (EPUB, FB2, Mobi, DOC, RTF, HTML, CHM, TXT). Scanned PDF/DjVu documents can also be reflowed with the built-in K2pdfopt library. [ZIP files][link-wiki-zip] are also supported for some formats.
+## 更多资料
 
-* **full-featured reading**: multi-lingual user interface with a highly customizable reader view and many typesetting options. You can set arbitrary page margins, override line spacing and choose external fonts and styles. It has multi-lingual hyphenation dictionaries bundled into the application.
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [calibre无线传书连不上怎么办](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/calibre%E6%97%A0%E7%BA%BF%E4%BC%A0%E4%B9%A6%E8%BF%9E%E4%B8%8D%E4%B8%8A%E6%80%8E%E4%B9%88%E5%8A%9E.md)
+- [字体与排版怎么调](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/%E5%AD%97%E4%BD%93%E4%B8%8E%E6%8E%92%E7%89%88%E6%80%8E%E4%B9%88%E8%B0%83.md)
+- [常见问题与解决办法](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95.md)
+- [怎么导入图书](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/%E6%80%8E%E4%B9%88%E5%AF%BC%E5%85%A5%E5%9B%BE%E4%B9%A6.md)
+- [支持哪些电子书格式](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/%E6%94%AF%E6%8C%81%E5%93%AA%E4%BA%9B%E7%94%B5%E5%AD%90%E4%B9%A6%E6%A0%BC%E5%BC%8F.md)
+- [词典文件怎么装与生词本怎么用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/%E8%AF%8D%E5%85%B8%E6%96%87%E4%BB%B6%E6%80%8E%E4%B9%88%E8%A3%85%E4%B8%8E%E7%94%9F%E8%AF%8D%E6%9C%AC%E6%80%8E%E4%B9%88%E7%94%A8.md)
+- [词典查词与标注笔记怎么用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/koreader/%E8%AF%8D%E5%85%B8%E6%9F%A5%E8%AF%8D%E4%B8%8E%E6%A0%87%E6%B3%A8%E7%AC%94%E8%AE%B0%E6%80%8E%E4%B9%88%E7%94%A8.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-* **integrated** with *calibre* (search metadata, receive ebooks wirelessly, browse library via OPDS), *Wallabag*, *Wikipedia*, *Google Translate* and other content providers.
+---
 
-* **optimized for e-ink devices**: custom UI without animation, with paginated menus, adjustable text contrast, and easy zoom to fit content or page in paged media.
-
-* **extensible**: via plugins
-
-* **fast**: on some older devices, it has been measured to have less than half the page-turn delay as the built in reading software.
-
-* **and much more**: look up words with StarDict dictionaries / Wikipedia, add your own online OPDS catalogs and RSS feeds, over-the-air software updates, an FTP client, an SSH server, …
-
-Please check the [user guide](http://koreader.rocks/user_guide/) and the [wiki][link-wiki] to discover more features and to help us document them.
-
-## Screenshots
-
-<a href="https://github.com/koreader/koreader-artwork/raw/master/koreader-menu.png"><img src="https://github.com/koreader/koreader-artwork/raw/master/koreader-menu-thumbnail.png" alt="" width="200px"></a>
-<a href="https://github.com/koreader/koreader-artwork/raw/master/koreader-footnotes.png"><img src="https://github.com/koreader/koreader-artwork/raw/master/koreader-footnotes-thumbnail.png" alt="" width="200px"></a>
-<a href="https://github.com/koreader/koreader-artwork/raw/master/koreader-dictionary.png"><img src="https://github.com/koreader/koreader-artwork/raw/master/koreader-dictionary-thumbnail.png" alt="" width="200px"></a>
-
-## Installation
-
-Please follow the model specific steps for your device:
-
-[Android](https://github.com/koreader/koreader/wiki/Installation-on-Android-devices) •
-[Cervantes](https://github.com/koreader/koreader/wiki/Installation-on-BQ-devices) •
-[Kindle](https://github.com/koreader/koreader/wiki/Installation-on-Kindle-devices) •
-[Kobo](https://github.com/koreader/koreader/wiki/Installation-on-Kobo-devices) •
-[Linux](https://github.com/koreader/koreader/wiki/Installation-on-desktop-linux) •
-[Pocketbook](https://github.com/koreader/koreader/wiki/Installation-on-PocketBook-devices) •
-[reMarkable](https://github.com/koreader/koreader/wiki/Installation-on-Remarkable)
-
-
-## Development
-
-[Setting up a build environment](doc/Building.md) •
-[Collaborating with Git](doc/Collaborating_with_Git.md) •
-[Building targets](doc/Building_targets.md) •
-[Porting](doc/Porting.md) •
-[Developer docs](http://koreader.rocks/doc/)
-
-## Support
-
-KOReader is developed and supported by volunteers all around the world. There are many ways you can help:
-
-- [fix bugs][link-issues-bugs] and [implement new features][link-issues-features]
-- [translate the program into your language][link-weblate] or improve an existing translation
-- document lesser-known features on the [wiki][link-wiki]
-- help others with your knowledge on the [forum][link-forum]
-
-Right now we only support [liberapay](https://liberapay.com/KOReader) donations.
-
-## Contributors
-
-[![Last commit][badge-last-commit]][link-gh-commits]
-[![Commit activity][badge-commit-activity]][link-gh-insights]
-
-[badge-bountysource]:https://img.shields.io/bountysource/team/koreader/activity?color=red
-[badge-circleci]:https://circleci.com/gh/koreader/koreader.svg?style=shield
-[badge-coverage]:https://codecov.io/gh/koreader/koreader/branch/master/graph/badge.svg
-[badge-commit-activity]:https://img.shields.io/github/commit-activity/m/koreader/koreader
-[badge-gitter]:https://img.shields.io/gitter/room/koreader/koreader?color=red
-[badge-last-commit]:https://img.shields.io/github/last-commit/koreader/koreader?color=orange
-[badge-license]:https://img.shields.io/github/license/koreader/koreader
-[badge-release]:https://img.shields.io/github/release/koreader/koreader.svg
-[badge-mobileread]:https://img.shields.io/badge/forum-on_mobileread-lightgrey
-[badge-weblate]:https://hosted.weblate.org/widgets/koreader/-/koreader/svg-badge.svg
-
-[link-bountysource]:https://www.bountysource.com/teams/koreader
-[link-circleci]:https://circleci.com/gh/koreader/koreader
-[link-coverage]:https://codecov.io/gh/koreader/koreader
-[link-forum]:http://www.mobileread.com/forums/forumdisplay.php?f=276
-[link-gh-commits]:https://github.com/koreader/koreader/commits/master
-[link-gh-insights]:https://github.com/koreader/koreader/pulse
-[link-gh-releases]:https://github.com/koreader/koreader/releases
-[link-gitter]:https://gitter.im/koreader/koreader
-[link-issues-bugs]:https://github.com/koreader/koreader/issues?q=is%3Aopen+is%3Aissue+label%3Abug
-[link-issues-features]:https://github.com/koreader/koreader/issues?q=is%3Aopen+is%3Aissue+label%3Aenhancement
-[link-weblate]:https://hosted.weblate.org/engage/koreader/?utm_source=widget
-[link-wiki]:https://github.com/koreader/koreader/wiki
-[link-wiki-zip]:https://github.com/koreader/koreader/wiki/ZIP
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/koreader/koreader)。
